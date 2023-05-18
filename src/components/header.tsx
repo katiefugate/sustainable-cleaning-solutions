@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
-        <div>
-            <Tabs position="relative" variant="unstyled">
+        <div className="header-container">
+            <img src={require("../images/SustainableCleaningSolutions.png")} alt="sustainable cleaning solutions" width="280" height="260"/>
+            <Tabs position="relative" variant="unstyled" className="tabs">
                 <TabList>
                     <Tab><Link to='home'>Home</Link></Tab>
                     <Tab><Link to={'about'}>About</Link></Tab>
@@ -20,7 +21,6 @@ export default function Header() {
                     borderRadius="1px"
                 />
             </Tabs>
-            <h1 className={'text-center'}>Sustainable Cleaning Solutions</h1>
         </div>
     );
 }
