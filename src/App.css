@@ -14,13 +14,17 @@
   width: 100%;
   justify-content: space-between;
   align-items: flex-end;
+  padding-bottom: 50px;
 }
 .home-page-container {
-  padding: 1px 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .home-page-container > * {
   padding-bottom: 50px;
+  width: 1000px;
 }
 
 .home-contact-container {
