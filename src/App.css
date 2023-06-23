@@ -35,3 +35,27 @@
 .home-contact-container > * {
   width: 50%;
 }
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
