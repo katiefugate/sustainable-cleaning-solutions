@@ -1,6 +1,6 @@
 import { Box, Heading } from "@chakra-ui/react";
 
-export default function Home() {
+export default function Contact() {
     return (
         <div className="home-page-container">
             <div className="home-contact-container">

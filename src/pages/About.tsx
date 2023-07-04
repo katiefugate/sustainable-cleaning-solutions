@@ -3,7 +3,6 @@ import {Heading} from "@chakra-ui/react";
 export default function About() {
     return (
         <div>
-            <h1>ABOUT</h1>
             <div>
                 <Heading>The Full Story</Heading>
             </div>

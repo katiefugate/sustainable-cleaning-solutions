@@ -1,10 +1,10 @@
 import { Heading } from "@chakra-ui/react";
 
-export default function Home() {
+export default function Team() {
     return (
         <div>
             <div className="column">
-                <Heading>Emilee Whitford</Heading>
+                <Heading>Charlotte Barber</Heading>
                 <p>IMAGE</p>
                 <Heading>Owner</Heading>
                 <p>With over six years of professional experience and personal experience, She opened her own business
@@ -13,7 +13,7 @@ export default function Home() {
                     her family.</p>
             </div>
             <div className="column">
-                <Heading>Ella Ragazzo</Heading>
+                <Heading>Paisley Barber</Heading>
                 <p>IMAGE</p>
                 <Heading>Lead House Cleaner</Heading>
                 <p>Proven hard worker and highly detail-oriented, Ella provides high-quality service to every space.

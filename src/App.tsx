@@ -5,7 +5,10 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Footer from"./components/footer"
-
+import Contact from "./pages/Contact";
+import Team from "./pages/Team";
+import Services from "./pages/Services";
+import FAQs from "./pages/FAQs";
 function App() {
     return (
         <div className="App" id="page-container">
@@ -14,8 +17,12 @@ function App() {
                     <Header/>
                 </header>
                 <Routes>
-                    <Route path="/Home" element={<Home />} />
+                    <Route path="/home" element={<Home />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/team" element={<Team />} />
+                    <Route path="/services" element={<Services />} />
+                    <Route path="/FAQs" element={<FAQs />} />
                 </Routes>
             </div>
             <footer>

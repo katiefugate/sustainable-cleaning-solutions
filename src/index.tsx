@@ -8,6 +8,11 @@ import ErrorPage from "./ErrorPage";
 import { baseTheme, ChakraProvider, extendTheme, withDefaultColorScheme } from "@chakra-ui/react";
 import Home from "./pages/Home";
 import About from "./pages/About"
+import Contact from "./pages/Contact";
+import Team from "./pages/Team";
+import Services from "./pages/Services";
+import FAQs from "./pages/FAQs";
+
 const theme = extendTheme(
     {
         colors: {
@@ -33,6 +38,22 @@ const router = createBrowserRouter([
             {
                 path: 'about',
                 element: <About/>,
+            },
+            {
+                path: 'contact',
+                element: <Contact/>,
+            },
+            {
+                path: 'team',
+                element: <Team/>,
+            },
+            {
+                path: 'services',
+                element: <Services/>,
+            },
+            {
+                path: 'FAQs',
+                element: <FAQs/>,
             },
         ],
     },
